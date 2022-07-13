@@ -19,7 +19,7 @@ class Bot extends Client {
     }
 
     public async init() {
-        this.login(process.env.TOKEN);
+        this.login("OTk2NjIwNzQ4ODM3OTAwMzAw.Gsch4i.p27wBkkjj5vemEFXtqI-e3X48GYHv0FBxkMJ80");
 
         //Event Handler
         const eventPath = path.join(__dirname, '..', 'Events');
